@@ -136,7 +136,7 @@
         </div>
         
         <!-- Logout  -->
-        <div class="p-6">
+        <div class="p-4">
             <Button variant="destructive" class="w-full gap-2" size="default">
                 <LogOut class="size-4" />
                 Log Out
