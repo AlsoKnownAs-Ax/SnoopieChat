@@ -1,0 +1,26 @@
+generatorName: typescript-axios
+inputSpec: http://localhost:8080/v3/api-docs
+apiPackage: api
+modelPackage: models
+supportsES6: true
+withSeparateModelsAndApi: true
+skipValidateSpec: true
+output: /src/lib/api
+enablePostProcessFile: true
+globalProperties:
+  apiDocs: false
+  modelDocs: false
+  apiTests: false
+  modelTests: false
+additionalProperties:
+  supportsES6: true
+  withSeparateModelsAndApi: true
+  apiPackage: api
+  modelPackage: models
+  withoutGitKeep: true
+  exportInterfaces: true
+  generatePackageJson: false
+  withGitIgnore: false
+  withNpmIgnore: false
+  snapshot: false
+  strictOptionalProperties: false
