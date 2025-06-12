@@ -1,3 +1,8 @@
+## Project Preview:
+[Preview Video](https://drive.google.com/file/d/10bRtmmUT3avDvwhWTvyCOrg86k6_Rcyt/view)
+
+-------
+
 ## Project Description:
 
 SnoopieChat is a secure, privacy-focused messaging platform designed to protect users' metadata and communications through advanced anonymization techniques. This application demonstrates practical implementations of multiple metadata protection strategies in a real-time chat environment.
