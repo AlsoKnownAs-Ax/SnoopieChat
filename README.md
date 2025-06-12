@@ -2,6 +2,9 @@
 
 SnoopieChat is a secure, privacy-focused messaging platform designed to protect users' metadata and communications through advanced anonymization techniques. This application demonstrates practical implementations of multiple metadata protection strategies in a real-time chat environment.
 
+### Project Background
+This project was developed as part of the Maastricht University curriculum (Project 2-2).
+
 ### Core Privacy Features
 
 SnoopieChat implements three key metadata protection techniques:
