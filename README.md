@@ -100,3 +100,8 @@ username: `demo2`
 7. On first account click add friends and put the username of the other account
 8. Switch tabs and accept the friend request
 9. Refresh the broswers and start chatting with eachother in real time
+
+### Contributors:
+
+- Matteo
+
