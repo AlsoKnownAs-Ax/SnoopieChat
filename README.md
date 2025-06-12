@@ -1,3 +1,50 @@
+## Project Description:
+
+SnoopieChat is a secure, privacy-focused messaging platform designed to protect users' metadata and communications through advanced anonymization techniques. This application demonstrates practical implementations of multiple metadata protection strategies in a real-time chat environment.
+
+### Core Privacy Features
+
+SnoopieChat implements three key metadata protection techniques:
+
+1. **Mixnet Simulation** - Messages are routed through simulated mixnets that obscure the communication path between sender and receiver, making traffic analysis more difficult.
+
+2. **Dummy Traffic Generation** - The system generates believable fake message traffic to mask actual communication patterns, providing plausible deniability and resistance to timing analysis.
+
+3. **Padme Padding Scheme** - Messages are padded to standardized sizes using the Padme scheme, preventing message size analysis that could reveal information about content.
+
+### Technical Architecture
+
+#### Frontend
+- Built with **Svelte** and **SvelteKit** for a responsive, efficient user interface
+- Uses **TypeScript** for enhanced type safety and code reliability
+- Real-time messaging updates via **WebSocket** connections
+- Responsive UI components from **shadcn-svelte** and **Tailwind CSS**
+
+#### Backend
+- **Spring Boot** Java application handling authentication, messaging, and security features
+- **WebSocket** integration via STOMP for real-time message delivery
+- **JPA/Hibernate** for database interaction and persistence
+- **JSON Web Token (JWT)** based authentication system
+
+#### PKI (Public Key Infrastructure)
+- Separate **Javalin**-based service providing certificate management and key distribution
+- Handles user identity verification and certificate issuance
+- Facilitates secure key exchange for end-to-end encryption
+
+#### Development Tools
+- **OpenAPI** specification with **Swagger UI** for API documentation and exploration
+- Auto-generated TypeScript SDK for type-safe API interactions on the frontend
+- SQLite database for simplified development and demonstration
+
+### Current Status
+
+SnoopieChat is a demonstration project showcasing privacy-enhancing technologies in a functional chat application. While the core messaging functionality and metadata protection features are operational, several advanced features remain under development:
+
+- **Double Ratchet Encryption** implementation for enhanced message security
+- Complete **Certificate Fetching and Validation** system 
+
+The project serves as a practical example of how various privacy technologies can be integrated into modern web applications to protect user communications from surveillance and traffic analysis.
+
 ## How to run the project:
 
 ### 1. Run PKI
