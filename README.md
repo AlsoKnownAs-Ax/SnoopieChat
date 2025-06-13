@@ -103,5 +103,4 @@ username: `demo2`
 
 ### Contributors:
 
-- Matteo
-- David
+- [name]
