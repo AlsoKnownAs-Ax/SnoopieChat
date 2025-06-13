@@ -103,4 +103,9 @@ username: `demo2`
 
 ### Contributors:
 
-- [name]
+- Amzu Andrei Alexandru
+- David Dimitrov
+- 
+
+
+
